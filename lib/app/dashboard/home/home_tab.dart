@@ -93,7 +93,7 @@ class HomeTab extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
-                        "A",
+                        'A',
                         style: TextStyle(
                           fontSize: isFontSize(
                             context,
@@ -138,7 +138,7 @@ class HomeTab extends StatelessWidget {
                   onTap: () {
                     html.window.open(
                       SocialMediaLinks.resume,
-                      "pdf",
+                      'pdf',
                     );
                   },
                 ),

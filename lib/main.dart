@@ -51,9 +51,9 @@ class MyWebsite extends StatelessWidget {
                     state.isDarkThemeOn,
                     context,
                   ),
-                  initialRoute: "/",
+                  initialRoute: '/',
                   routes: {
-                    "/": (context) => const NChecking(),
+                    '/': (context) => const NChecking(),
                   },
                 );
               },

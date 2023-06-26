@@ -20,11 +20,11 @@ class NavBarLogo extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "< ",
+          '< ',
           style: textSty,
         ),
         Text(
-          "Portfolio",
+          'Portfolio',
           style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                 fontSize: 25,
                 color: theme.textColor,
@@ -32,7 +32,7 @@ class NavBarLogo extends StatelessWidget {
               ),
         ),
         Text(
-          Responsive.isDesktop(context) ? " />\t\t" : " />",
+          Responsive.isDesktop(context) ? ' />\t\t' : ' />',
           style: textSty,
         ),
       ],

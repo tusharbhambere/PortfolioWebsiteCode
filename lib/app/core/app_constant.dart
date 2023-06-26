@@ -92,7 +92,7 @@ mixin SocialMediaLinks {
   static const String instagram = 'https://www.instagram.com/_ashu_1807/';
 
   static const String profileImage =
-      "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80";
+      'https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80';
   static const String fiverr = 'https://www.fiverr.com/ashu_0806';
   static const String upwork =
       'https://www.upwork.com/freelancers/~01696f800656e3d58e';
@@ -103,17 +103,17 @@ mixin SocialMediaLinks {
 mixin AppContent {
   static const String hellotag = '''Hi there, Welcome to my intro ''';
   static const String yourname = "I'm Ashwini Gupta,";
-  static const String animationtxt1 = " Application Developer";
-  static const String animationtxt2 = "Web Developer";
-  static const String contactHeadding = "Let’s try my service now!";
+  static const String animationtxt1 = ' Application Developer';
+  static const String animationtxt2 = 'Web Developer';
+  static const String contactHeadding = 'Let’s try my service now!';
   static const String contactSubHeadding =
-      "Let’s work together and make everything super beneficial and super useful.";
+      'Let’s work together and make everything super beneficial and super useful.';
   static const String miniDescription =
       "Freelancer and a full-time service provider for programming and design content needs. Join me down below and let's get started!";
   static const String servicesSubHeading =
       "Since the beginning of my journey as a freelance and full-time developer, I've worked in startups (currently working) and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and software building.";
   static const String protfolioSubHeading =
-      "Since the beginning of my journey as a designer and developer, I have created digital products for business and consumer use. This is a little bit.";
+      'Since the beginning of my journey as a designer and developer, I have created digital products for business and consumer use. This is a little bit.';
   static const String aboutMeHeadline =
       'I\'m Ashwini Kumar Gupta, a Mobile App developer and Web developer.';
   static const String aboutMeDetail =
@@ -133,16 +133,16 @@ double isFontSize(BuildContext context, double val) {
 
 class IconUrls {
   static String upworkUrl =
-      "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png";
+      'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png';
 
   static String whatsappUrl =
-      "https://img.icons8.com/color/48/000000/whatsapp--v1.png";
+      'https://img.icons8.com/color/48/000000/whatsapp--v1.png';
 
-  static String fiverrUrl = "https://img.icons8.com/color/48/000000/fiverr.png";
+  static String fiverrUrl = 'https://img.icons8.com/color/48/000000/fiverr.png';
 
-  static const lightIcon = "https://img.icons8.com/ios/50/000000/sun--v1.png";
+  static const lightIcon = 'https://img.icons8.com/ios/50/000000/sun--v1.png';
   static const darkIcon =
-      "https://img.icons8.com/external-glyphons-amoghdesign/64/000000/external-moon-weather-vol-01-glyphons-amoghdesign.png";
+      'https://img.icons8.com/external-glyphons-amoghdesign/64/000000/external-moon-weather-vol-01-glyphons-amoghdesign.png';
 }
 
 class StaticImage {
@@ -155,35 +155,35 @@ class StaticImage {
 List<ContactModel> contactUtils = [
   ContactModel(
     url: SocialMediaLinks.gitHub,
-    icon: "https://img.icons8.com/ios-glyphs/60/000000/github.png",
+    icon: 'https://img.icons8.com/ios-glyphs/60/000000/github.png',
   ),
   ContactModel(
     url: SocialMediaLinks.fiverr,
-    icon: "https://img.icons8.com/ios-filled/50/000000/fiverr.png",
+    icon: 'https://img.icons8.com/ios-filled/50/000000/fiverr.png',
   ),
   ContactModel(
     url: SocialMediaLinks.facebook,
-    icon: "https://img.icons8.com/ios-filled/50/000000/facebook-new.png",
+    icon: 'https://img.icons8.com/ios-filled/50/000000/facebook-new.png',
   ),
   ContactModel(
     url: SocialMediaLinks.whatsapp,
-    icon: "https://img.icons8.com/material-outlined/48/000000/whatsapp.png",
+    icon: 'https://img.icons8.com/material-outlined/48/000000/whatsapp.png',
   ),
   ContactModel(
     url: SocialMediaLinks.twitter,
-    icon: "https://img.icons8.com/fluency/48/000000/twitter.png",
+    icon: 'https://img.icons8.com/fluency/48/000000/twitter.png',
   ),
   ContactModel(
     url: SocialMediaLinks.linkedin,
-    icon: "https://img.icons8.com/ios-filled/50/000000/linkedin.png",
+    icon: 'https://img.icons8.com/ios-filled/50/000000/linkedin.png',
   ),
   ContactModel(
     url: SocialMediaLinks.upwork,
-    icon: "https://img.icons8.com/ios-filled/50/000000/upwork.png",
+    icon: 'https://img.icons8.com/ios-filled/50/000000/upwork.png',
   ),
   ContactModel(
     url: SocialMediaLinks.instagram,
-    icon: "https://img.icons8.com/glyph-neue/64/000000/instagram-new.png",
+    icon: 'https://img.icons8.com/glyph-neue/64/000000/instagram-new.png',
   ),
 ];
 List<ProjectModel> projectUtils = [

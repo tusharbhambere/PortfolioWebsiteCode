@@ -73,7 +73,7 @@ class HomeDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
                       const Text(
-                        "A ",
+                        'A ',
                         style: TextStyle(
                           fontSize: 32,
                           fontWeight: FontWeight.w400,
@@ -113,7 +113,7 @@ class HomeDesktop extends StatelessWidget {
                     onTap: () {
                       html.window.open(
                         SocialMediaLinks.resume,
-                        "pdf",
+                        'pdf',
                       );
                     },
                   ),

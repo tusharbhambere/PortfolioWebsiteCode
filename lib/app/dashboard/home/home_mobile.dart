@@ -60,7 +60,7 @@ class HomeMobile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Text(
-                "A ",
+                'A ',
                 style: TextStyle(
                   fontSize: isFontSize(
                     context,
@@ -87,7 +87,7 @@ class HomeMobile extends StatelessWidget {
                 onTap: () {
                   html.window.open(
                     SocialMediaLinks.resume,
-                    "pdf",
+                    'pdf',
                   );
                 },
               ),

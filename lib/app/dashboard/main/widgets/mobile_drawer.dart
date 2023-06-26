@@ -29,7 +29,7 @@ class MobileDrawer extends StatelessWidget {
                           : Icons.light_mode,
                     ),
                     title: Text(
-                      state.isDarkThemeOn ? "Light Mode" : "Dark Mode",
+                      state.isDarkThemeOn ? 'Light Mode' : 'Dark Mode',
                     ),
                     trailing: Switch(
                       value: state.isDarkThemeOn,

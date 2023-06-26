@@ -19,14 +19,14 @@ class ContactDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nGet in Touch",
+            text: '\nGet in Touch',
           ),
           Space.y(
             1.w,
           )!,
           const CustomSectionSubHeading(
             text:
-                "If you want to avail my services you can contact me at the links below.",
+                'If you want to avail my services you can contact me at the links below.',
           ),
           Space.y(
             2.w,

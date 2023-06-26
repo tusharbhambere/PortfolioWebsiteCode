@@ -16,7 +16,7 @@ class PortfolioMobileTab extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: "\nProjects",
+          text: '\nProjects',
         ),
         Space.y(
           3.w,

@@ -77,7 +77,7 @@ class ContactMobileTab extends StatelessWidget {
                     ),
                     highlightColor: Colors.white54,
                     iconSize: 21,
-                  ))
+                  ),)
               .toList(),
         ),
         Space.y(

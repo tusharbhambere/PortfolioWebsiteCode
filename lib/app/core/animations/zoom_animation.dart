@@ -101,7 +101,7 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
                 0.4,
                 0.6,
                 1
-              ]),
+              ],),
           child: Container(
             decoration: BoxDecoration(
               shape: BoxShape.circle,

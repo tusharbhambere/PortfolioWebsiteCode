@@ -18,7 +18,7 @@ class CustomOutline extends StatelessWidget {
     required double height,
     required EdgeInsetsGeometry padding,
   })  : _painter = _GradientPainter(
-            strokeWidth: strokeWidth, radius: radius, gradient: gradient),
+            strokeWidth: strokeWidth, radius: radius, gradient: gradient,),
         _child = child,
         _width = width,
         _height = height,
